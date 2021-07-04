@@ -6,7 +6,7 @@
         color: blue;
     }
     p{
-    color: #dd1a1a;
+    color: blue;
 
     }
     body{
@@ -20,8 +20,12 @@
 
     section{
         display:flex;
+        margin-bottom:150px;
     }
 
+    .dream{
+        desplay:flex;
+    }
 .half-width{
 
 width:50%;
@@ -51,6 +55,12 @@ background-repeat: no-repeat;
 
 }
 
+.dream{
+
+    background-image: url(developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
 
 
 

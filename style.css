@@ -1,10 +1,13 @@
  
-
-
-    h1{
+ h1{
 
         color: blue;
     }
+.h3{
+
+   color: rgb(196, 42, 15); 
+}
+
     p{
     color: blue;
 
@@ -14,11 +17,11 @@
         margin: 0px;
     }
     span{
-        color: darkgreen;
+        color:rgb(22, 206, 166);
 
     }
 
-    section{
+    .flexible{
         display:flex;
         margin-bottom:150px;
     }
@@ -30,7 +33,7 @@
 
 width:50%;
 padding-left:3%;
-
+ 
 
 }
 .half-width img{
@@ -62,7 +65,23 @@ background-repeat: no-repeat;
     background-position:right;
 }
 
+.experiences{
+    box-shadow:10px 10px 40px blue ;
+width: 40%;
 
+margin-right: 5%;
+margin-left: 5%;
+padding: 2%;
+border-radius: 10px ;
+background-image: url( developer-portfolio-master/images/exp-bg.png );
+background-position: left;
+background-repeat: no-repeat ;
+border-radius: 10px ;
+border-left: 10px solid;
+
+
+
+}
 
 
 
